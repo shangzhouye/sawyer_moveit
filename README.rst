@@ -1,3 +1,6 @@
+This is the forked package of sawyer_moveit from https://github.com/RethinkRobotics/sawyer_moveit.
+This package is specificly for the use of the final project, ME495 Embedded Systems in Robotics.
+
 Sawyer MoveIt
 ==============
 
