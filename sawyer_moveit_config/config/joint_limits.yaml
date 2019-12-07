@@ -8,11 +8,11 @@ joint_limits:
     #max_velocity: 0.37
     #max_acceleration: 1.5
     ##          Medium Max           ##
-    max_velocity: 0.88
-    max_acceleration: 3.5
+    #max_velocity: 0.88
+    #max_acceleration: 3.5
     ##           Fast Max            ##
-    #max_velocity: 1.48
-    #max_acceleration: 7
+    max_velocity: 2.0 #1.48
+    max_acceleration: 8.0 #7
     ##          Express Max          ##
     #max_velocity: 1.48
     #max_acceleration: 10.0
@@ -59,11 +59,11 @@ joint_limits:
     #max_velocity: 0.415
     #max_acceleration: 3.0
     ##          Medium Max           ##
-    max_velocity: 0.996
-    max_acceleration: 5.0
+    #max_velocity: 0.996
+    #max_acceleration: 5.0
     ##           Fast Max            ##
-    #max_velocity: 1.66
-    #max_acceleration: 8
+    max_velocity: 1.3 #1.66
+    max_acceleration: 8
     ##          Express Max          ##
     #max_velocity: 1.66
     #max_acceleration: 10.0
@@ -90,17 +90,17 @@ joint_limits:
     ## Acceleration Limits (rad/s^2) ##
     has_acceleration_limits: true
     ##           Slow Max            ##
-    #max_velocity: 0.74
-    #max_acceleration: 3.0
+    #max_velocity: 10.0 #0.74
+    #max_acceleration: 5.0 #3.0
     ##          Medium Max           ##
-    max_velocity: 1.776
-    max_acceleration: 5.0
+    max_velocity: 10.0 #1.776
+    max_acceleration: 6.0 #5.0
     ##           Fast Max            ##
-    #max_velocity: 2.96
-    #max_acceleration: 8
+    #max_velocity: 10.0 #2.96
+    #max_acceleration: 10.0 #8
     ##          Express Max          ##
-    #max_velocity: 2.96
-    #max_acceleration: 12.0
+    #max_velocity: 10.0 #2.96
+    #max_acceleration: 14.0 #12.0
   right_j6:
     ##    Velocity Limits (rad/s)    ##
     has_velocity_limits: true
